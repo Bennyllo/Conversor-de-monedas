@@ -1,10 +1,10 @@
 package Test;
-import java.util.ArrayList;
+import java.util.ArrayList;  
 import java.util.List;
 
 import Clases.Moneda;
 
-public class test {
+public class testMoneda {
 
 	public static void main(String[] args) {
 		// Nombre de la moneda-simbolo de la moneda-valor en pesos de la moneda
