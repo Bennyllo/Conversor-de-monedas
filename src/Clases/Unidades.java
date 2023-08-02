@@ -1,44 +1,35 @@
 package Clases;
-
-public class Moneda {
+//clase para representar las divisas
+public class Unidades {
+	//la variable denominacion guarda el nombre de la moneda
+	//la variable caracter guarda el simbolo de la moneda
+	//la variable valor guarda lo que vale cada moneda en pesos todas las monedas van a ser convertidas a pesos 
 	private String denominacion;
 	private char caracter;
 	private double valor;
 
 	// Nombre de la moneda-simbolo de la moneda-valor en pesos de la moneda
-	public Moneda(String denominacion, char caracter, double valor) {
+	public Unidades(String denominacion, char caracter, double valor) {
 		this.denominacion = denominacion;
 		this.caracter = caracter;
 		this.valor = valor;
 	}
 
+	//metodo para convertir entre divisas
 	public double convertir(double cantidad) {
 		return cantidad = cantidad * this.valor;
-		// cantidad / this.valor;
 	}
 
 	public String getDenominacion() {
 		return denominacion;
 	}
 
-	public void setDenominacion(String denominacion) {
-		this.denominacion = denominacion;
-	}
-
 	public char getCaracter() {
 		return caracter;
 	}
 
-	public void setCaracter(char caracter) {
-		this.caracter = caracter;
-	}
-
 	public double getValor() {
 		return valor;
-	}
-
-	public void setValor(double valor) {
-		this.valor = valor;
 	}
 
 }
