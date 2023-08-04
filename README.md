@@ -30,6 +30,7 @@ se me hizo una mejor forma primero solicitar la moneda inicial y despues pregunt
 al dar clic en "Si" nos manda a la pantalla de menu principal al dar clic en "no""cancelar" o en la x nos manda un mensaje de programa finalizado y se cierra el programa![image](https://github.com/Bennyllo/Conversor-de-monedas/assets/132175443/8dc7ae97-9011-4806-814c-7362b9c0bf02)
 </p>
 
-<h2>Informacion/h2>
+<h2>Informacion</h2>
+  
 <p>Se agradece cualquier comentario sobre mi proyecto me ayudaria a aprender buenas practicas para la entrega principalmente en el codigo, debo ir registrando los avances porque hice muchos
 a este correo benyj721@gmail.com</p>
